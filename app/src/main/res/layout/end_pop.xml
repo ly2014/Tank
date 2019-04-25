@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/eb_goal"
+        android:layout_width="212dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:background="@mipmap/button1"
+        android:text="排行榜"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/e_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/e_restart" />
+
+    <Button
+        android:id="@+id/e_back"
+        android:layout_width="212dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/button"
+        android:text="返回主菜单"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eb_goal" />
+
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="371dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="游戏结束"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/y_goal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/y_goal"
+        android:layout_width="120dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/e_restart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/end" />
+
+    <Button
+        android:id="@+id/e_restart"
+        android:layout_width="212dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button"
+        android:text="重新开始"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toTopOf="@+id/eb_goal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/y_goal" />
+</android.support.constraint.ConstraintLayout>

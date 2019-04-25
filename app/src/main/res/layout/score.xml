@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rank2"
+        android:layout_width="243dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/rank3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rank1" />
+
+    <TextView
+        android:id="@+id/rank3"
+        android:layout_width="243dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="21dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/rank4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rank2" />
+
+    <TextView
+        android:id="@+id/rank4"
+        android:layout_width="243dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/rank5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rank3" />
+
+    <TextView
+        android:id="@+id/rank5"
+        android:layout_width="243dp"
+        android:layout_height="0dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rank4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="排行榜"
+        android:textColor="#ffffff"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/rank1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rank1"
+        android:layout_width="243dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/rank2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</android.support.constraint.ConstraintLayout>

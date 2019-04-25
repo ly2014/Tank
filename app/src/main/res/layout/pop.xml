@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="275dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:text="重新开始"
+        app:layout_constraintBottom_toTopOf="@+id/b_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back" />
+
+    <Button
+        android:id="@+id/b_main"
+        android:layout_width="275dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="98dp"
+        android:text="返回主菜单"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/restart" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="275dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="119dp"
+        android:layout_marginBottom="30dp"
+        android:text="回到游戏"
+        app:layout_constraintBottom_toTopOf="@+id/restart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
